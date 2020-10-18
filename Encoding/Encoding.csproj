@@ -2,20 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>NepitUtils</AssemblyName>
-    <RootNamespace>NepitUtils</RootNamespace>
+    <AssemblyName>NepitUtils.Encoding</AssemblyName>
+    <RootNamespace>NepitUtils.Encoding</RootNamespace>
     <Authors>Michael Portiera</Authors>
     <Product />
     <Company>Nepit Development</Company>
     <Copyright>Michael Portiera</Copyright>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <SignAssembly>false</SignAssembly>
+    <Description>A package for encoding and decoding data from various formats.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="license.txt">
+    <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
