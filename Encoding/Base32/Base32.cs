@@ -56,7 +56,7 @@ namespace NepitUtils.Encoding.Base32
             int bufferIndex = 0;
             int buffer = 0;
             int mask = 0b11111111;
-            data = data.Replace(map.Padding, "");
+            if (map.Padding != null) data = data.Replace(map.Padding, "");
             MemoryStream result = new MemoryStream();
             while (dataIndex < data.Length)
             {

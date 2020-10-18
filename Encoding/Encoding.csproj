@@ -13,6 +13,8 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <SignAssembly>false</SignAssembly>
     <Description>A package for encoding and decoding data from various formats.</Description>
+    <RepositoryUrl>https://github.com/nepitdev/NepitUtils</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
