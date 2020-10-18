@@ -15,10 +15,16 @@
     <Description>A package for encoding and decoding data from various formats.</Description>
     <RepositoryUrl>https://github.com/nepitdev/NepitUtils</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Version>0.1.0</Version>
+    <PackageIcon>nepit-logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\nepit-logo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
